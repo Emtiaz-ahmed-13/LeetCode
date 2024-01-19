@@ -11,6 +11,9 @@
 #         self.right = right
 
 
+from typing import Optional
+
+
 class Solution:
     def maxDepth(self, root: Optional[TreeNode]) -> int:
         if root is None:
