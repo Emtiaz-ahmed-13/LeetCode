@@ -14,6 +14,7 @@ public:
         if(i==n-1) return matrix[i][j];
         if(dp[i][j] != 1e8) return dp[i][j];
         
+        
 
         int leftdown = solve(i+1, j-1, matrix, dp);
         int down = solve(i+1, j, matrix, dp);

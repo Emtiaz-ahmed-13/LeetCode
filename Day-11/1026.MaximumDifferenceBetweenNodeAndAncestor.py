@@ -1,7 +1,8 @@
-
-
 # Problem  Link: 
 #         https://leetcode.com/problems/maximum-difference-between-node-and-ancestor/description/
+
+from typing import Optional
+
 
 class Solution(object):
     def maxAncestorDiff(self, root):
