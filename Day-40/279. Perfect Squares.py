@@ -10,3 +10,4 @@ class Solution:
         mini=n
         while(i*j<=n):
             mini=min
+            
